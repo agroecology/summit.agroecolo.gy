@@ -1,7 +1,7 @@
-{:site-title         "Agroecology"
+{:site-title         "Agroecology Summit"
  :author             "Duncan McGreggor"
- :description        "Agroecology"
- :site-url           "http://agroecolo.gy/"
+ :description        "Agroecology Summit"
+ :site-url           "http://summit.agroecolo.gy/"
  :post-root          "posts"
  :tag-root           "tags"
  :page-root          "pages"
@@ -13,7 +13,7 @@
  :sass-src           nil
  :sass-dest          nil
  :theme              "thompson_fields"
- :resources          ["img", "favicon.ico"]
+ :resources          ["img", "favicon.ico", "CNAME"]
  :keep-files         [".git"]
  :disqus?            false
  :disqus-shortname   ""
