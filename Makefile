@@ -8,7 +8,6 @@ THEME_DIR = resources/templates/themes/thompson_fields
 
 build:
 	lein run
-	echo $(DOMAIN) > $(BUILD_DIR)/CNAME
 
 dev:
 	lein ring server
