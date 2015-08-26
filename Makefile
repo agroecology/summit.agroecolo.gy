@@ -38,7 +38,7 @@ update:
 # done once, during the initial setup of the repository. It assumes that the
 # top-level site-generating repp, agroecolo.gy, has been created already.
 setup:
-	ln -s ../agroecolo.gy/$(THEME_DIR) $(THEME_DIR)
+	ln -s ../../../../agroecolo.gy/$(THEME_DIR) $(THEME_DIR)
 
 rm-submodule:
 	-git rm .gitmodules
